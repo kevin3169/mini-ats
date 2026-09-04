@@ -1,0 +1,2 @@
+-- Optional demo data after you have created the first admin and a customer via the UI.
+-- This file intentionally contains no real credentials.
