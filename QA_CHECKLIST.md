@@ -1,0 +1,21 @@
+# Manual QA checklist before sending
+
+- [ ] Login works with admin credentials.
+- [ ] Admin can create another admin.
+- [ ] Admin can create a new customer + company.
+- [ ] Customer can log in.
+- [ ] Customer cannot read another company's data (verify with second customer).
+- [ ] Customer can create a job.
+- [ ] Customer can add a candidate with LinkedIn URL.
+- [ ] PDF CV uploads to private `cvs` bucket.
+- [ ] Candidate appears in New column.
+- [ ] Candidate can be dragged to Screening/Interview/Offer/Hired.
+- [ ] Name filter works.
+- [ ] Job filter works.
+- [ ] Admin can switch customer workspace and perform customer actions.
+- [ ] AI assessment works on a candidate with CV text.
+- [ ] AI result persists after reload.
+- [ ] Mobile view is usable.
+- [ ] No service-role/OpenAI keys appear in frontend build or Git history.
+- [ ] Production URL works in a private/incognito window.
+- [ ] Loom stays close to 5 minutes.
